@@ -80,7 +80,7 @@ if st.button("Generate Fit Recommendation", type="primary", use_container_width=
                 """
                 
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.6-flash",
                     contents=prompt,
                     config={"temperature": 0.2}
                 )
